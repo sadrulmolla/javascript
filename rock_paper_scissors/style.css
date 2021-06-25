@@ -1,0 +1,76 @@
+.{
+	margin : 0;
+	padding : 0;
+}
+.header
+{
+	background-color: white;
+	padding : 10px;
+}
+h1
+{
+	color : black;
+	text-align : center;
+}
+body
+{
+	background : rgb(60, 60, 60);
+}
+.score_board
+{
+	border : 3px solid white;
+	width : 200px;
+	margin: 20px auto;
+	text-align : center;
+	font-size : 14px;
+	position : relative;
+	height : auto;
+}
+.badges
+{
+	color: black;
+	background-color : red;
+}
+.score
+{
+	color: white;
+	font-size : 40px;
+}
+#human
+{
+	position : absolute;
+	width : 65px;
+	top :15px;
+	left :-40px;
+}
+#computer
+{
+	position : absolute;
+	width : 65px;
+	top :15px;
+	right :-40px;
+}
+p{
+	color : white;
+	text-align : center;
+	font-size : 30px;
+}
+.option{
+	text-align : center;
+}
+.image_class{
+	display :inline-block;
+	border : 3px solid white;
+	border-radius : 50%;
+	padding : 5px;
+	margin : 5px;
+}
+img{
+	width : 70px;
+}
+.end_text{
+	text-align : center;
+	margin-top : 10px;
+	font-size : 20px;
+	color : white;
+}
