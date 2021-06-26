@@ -8,22 +8,23 @@
 <body>
 <div class="header"><h1>Rock Pepar Secissors</h1></div>
 <div class="score_board">
-	<div class="badges" id="human">Human</div>
+	<div class="badges" id="human">You</div>
 	<div  class="badges" id ="computer">Computer</div>
-	<div class="score">0:0</div>
+	<div class="score"><span id="h_score">0</span><span>:</span><span id="c_score">0</span></div>
 </div>
-<div class="Paragarph"><p>Paper Cover Rocks You win</p></div>
+<div id="Paragarph"><p>Start</p></div>
 <div class="option">
-	<div class="image_class" id="r">
+	<div class="image_class" id="r" onclick="rock_function()">
 		<img src="./images/rock.png">
 	</div>
-	<div class="image_class" id="p">
+	<div class="image_class" id="p" onclick="paper_function()">
 		<img src="./images/paper.png">
 	</div>
-	<div class="image_class" id="s">
+	<div class="image_class" id="s" onclick="scissor_function()">
 		<img src="./images/secissor.png">
 	</div>
 </div>
 <div class="end_text">Make Your Move</div>
+<script src="app.js" type="text/javascript"></script>
 </body>
 </html>
